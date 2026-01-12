@@ -1,0 +1,52 @@
+name: flutter_application_2
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.30.0
+  firebase_auth: ^4.17.0
+  cloud_firestore: ^4.16.0
+  firebase_storage: ^11.7.0
+  image_picker: ^1.0.4
+  cupertino_icons: ^1.0.8
+  http: ^0.13.6
+  path: ^1.9.0
+  path_provider: ^2.0.15  # <-- ADD THIS
+  tflite_flutter: ^0.11.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_native_splash: ^2.4.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/welcome.jpeg
+    - assets/logo.png
+
+# 🔹 Native splash disabled (no logo shown at startup)
+flutter_native_splash:
+  color: "#ffffff"
+
+  android: true
+  ios: true
+  web: true
+
+  android_screen_orientation: portrait
+  fullscreen: true
+  
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.png"

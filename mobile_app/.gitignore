@@ -1,0 +1,67 @@
+# ===============================
+# OS & Editor
+# ===============================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.log
+
+# ===============================
+# Python / Flask
+# ===============================
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+flask_backend/venv/
+flask_backend/env/
+instance/
+.pytest_cache/
+
+# ===============================
+# AI / ML (IMPORTANT)
+# ===============================
+dataset/
+data/
+images/
+*.h5
+*.hdf5
+*.pth
+*.pt
+*.onnx
+models/
+outputs/
+results/
+
+# ===============================
+# Flutter / Dart
+# ===============================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+**/ios/Flutter/.last_build_id
+
+# ===============================
+# Android
+# ===============================
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# ===============================
+# IDEs
+# ===============================
+.idea/
+*.iml
+.vscode/
+
+# ===============================
+# Logs & Temp
+# ===============================
+logs/
+tmp/

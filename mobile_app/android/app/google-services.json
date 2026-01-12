@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "287225977822",
+    "project_id": "lung-cancer-app-77aff",
+    "storage_bucket": "lung-cancer-app-77aff.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287225977822:android:66f16fef625878f9299b4f",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7IzeOJQ8SgUFK2CU6BXSISzS1NyYlPuk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
